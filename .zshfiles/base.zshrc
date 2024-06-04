@@ -28,7 +28,7 @@ autoload -U compinit && compinit
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 alias cws="cd ~/workspace"
-alias ls="eza -1 -l --icons=auto --git --all -m --time-style=relative --no-permissions --no-user"
+alias ls="eza -l --icons=auto --git -m --time-style=relative --no-permissions --no-user"
 alias cat=bat
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
