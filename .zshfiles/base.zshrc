@@ -30,6 +30,8 @@ eval "$(zoxide init zsh --cmd cd)"
 alias cws="cd ~/workspace"
 alias ls="eza -l --icons=auto --git -m --time-style=relative --no-permissions --no-user"
 alias cat=bat
+setopt inc_append_history
+setopt share_history
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
