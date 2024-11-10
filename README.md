@@ -13,5 +13,9 @@ This is my dotfiles for zsh.
 ### Steps
 
 1. Clone this repo
-2. Run stow .
-3. Open your .zshrc and add the following at the beginning: source $HOME/.zshfiles/base.zshrc
+2. Install stow
+3. Install [eza](https://eza.rocks/)
+4. Install [bat](https://github.com/sharkdp/bat)
+5. Install [fzf](https://github.com/junegunn/fzf#linux-packages)
+6. Run stow .
+7. Open your .zshrc and add the following at the beginning: source $HOME/.zshfiles/base.zshrc
