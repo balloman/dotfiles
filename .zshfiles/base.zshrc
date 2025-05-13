@@ -23,6 +23,8 @@ eval "$(zoxide init zsh --cmd cd)"
 alias cws="cd ~/workspace"
 alias ls="eza -l --icons=auto --git -m --time-style=relative --no-permissions --no-user"
 alias cat=bat
+HISTFILE=~/.zshistory
+SAVEHIST=8000
 setopt inc_append_history
 setopt share_history
 
