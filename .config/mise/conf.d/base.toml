@@ -1,0 +1,6 @@
+[tools]
+bat = "latest"
+eza = "latest"
+fzf = "latest"
+jj = "latest"
+zoxide = "latest"
