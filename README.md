@@ -1,6 +1,6 @@
 # Bernard DotFiles
 
-This is my dotfiles for zsh.
+This are my dotfiles for the different software that I like to use in the terminal.
 
 ## Installation
 
